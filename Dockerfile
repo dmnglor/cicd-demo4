@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 5200
-ADD target/scicd-demo.jar cicd-demo.jar
-ENTRYPOINT ["java","-jar","/cicd.jar"]
+ADD target/cicd-demo4.jar cicd-demo4.jar
+ENTRYPOINT ["java","-jar","/cicd-demo4.jar"]
