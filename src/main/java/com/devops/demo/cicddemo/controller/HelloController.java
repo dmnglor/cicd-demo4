@@ -11,4 +11,8 @@ public class HelloController {
 		return "Hello to the world of Devops";
 	}
 
+	@GetMapping("/welcome")
+	public String hello() {
+		return "welcome to the world of Devops";
+	}
 }
